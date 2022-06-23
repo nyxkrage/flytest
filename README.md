@@ -14,6 +14,7 @@
 1. Run `flyctl launch`
 1. Enter a name for your app, choose a region. Choose no to a Postgresql database and to deploy now
 1. Create a repository on GitHub
+1. Enable GitHub actions in the Actions tab
 1. Go to Settings>Secrets>Actions and create a new secret
 1. Name the secret FLY_API_TOKEN and run `flyctl auth token` and paste the result as the value
 1. Follow the `…or push an existing repository from the command line` steps
